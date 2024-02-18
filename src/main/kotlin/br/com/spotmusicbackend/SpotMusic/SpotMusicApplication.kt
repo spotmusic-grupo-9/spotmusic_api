@@ -9,3 +9,5 @@ class SpotMusicApplication
 fun main(args: Array<String>) {
 	runApplication<SpotMusicApplication>(*args)
 }
+
+
