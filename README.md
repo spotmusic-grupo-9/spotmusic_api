@@ -6,6 +6,7 @@ Este projeto faz parte do SpotMusic e tem um repositorio dedicado para documenta
 
 ## Pastas
 
+```
 .
 ├── app                  # "app" is a Python package
 │   ├── __init__.py      # this file makes "app" a "Python package"
@@ -22,5 +23,6 @@ Este projeto faz parte do SpotMusic e tem um repositorio dedicado para documenta
 │   │   ├── __init__.py  # makes "tests" a "Python subpackage"
 │   │   └── users.py     # "users" tests of app.routers.users
 └── .env
+```
 
 _referencia: [fastapi](https://fastapi.tiangolo.com/tutorial/bigger-applications/)_
