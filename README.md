@@ -26,3 +26,17 @@ Este projeto faz parte do SpotMusic e tem um repositorio dedicado para documenta
 ```
 
 _referencia: [fastapi](https://fastapi.tiangolo.com/tutorial/bigger-applications/)_
+
+
+## Rodando local
+- ativando pyenv
+    - `pyenv install 3.11`
+    - `pyenv local 3.11`
+- ativando venv
+    - `python3 -m venv venv`
+    - `./venv/bin/activate`
+- instalando requirements
+    - `pip install -r requirements.txt`
+- iniciando o projeto
+    - `cd ./app`
+    - `uvicorn main:app --reload`
